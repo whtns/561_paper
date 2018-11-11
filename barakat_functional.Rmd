@@ -1,0 +1,41 @@
+---
+title: "barakat_functional.Rmd"
+author: "Kevin Stachelek"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r , include=FALSE}
+library(stchlk.notes)
+pwd <- getwd()
+stchlk.notes::loadkey(pwd)
+
+```
+
+# Abstract
+
+* Enhancers regulate spatiotemp gene expression. 
+
+* enhancers require tf binding and histone modification
+
+* how much is unclear.
+
+* bomcine Chip with parallel reporter assay to id functional enhancers in ESCs.
+
+* Active enhancers associate wiht TF but only a minority of NANOG, OCT4, H3K27ac, and H3K4me1 marked regions function as enhancers
+
+* Activity changes under naive versus primed culture conditions
+
+* Can identify an enhancer set associated with non-ESC-specific processes.
+
+* Transposable elements may associate with enhancers, but only some exhibit activity. 
+
+* Within super-enhancers large tracts are nonfunctional, restricted to small subdomains. 
+
+* 
+

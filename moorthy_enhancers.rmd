@@ -1,0 +1,40 @@
+---
+title: "moorthy_enhancers.rmd"
+author: "Kevin Stachelek"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r , include=FALSE}
+library(stchlk.notes)
+pwd <- getwd()
+stchlk.notes::loadkey(pwd)
+
+```
+
+# Enhancers and super-enhancers have equivalent regulatory roles in escs by regulation of single or multiple genes
+
+* Trans enhancers maintain cell-type-specific expression. They drive cell fate changes during development. 
+
+* Highly expressed genes are associated with individual enhances, ex. locus control regions.
+
+* it is predicted that stretch-enhancers (super-enhancers) regulate critical cell-identity genes. 
+
+## Can use crispr/cas-9 deletion to study enhancers. 
+
+* The effect of deleting enhancers is varialbe, results in gene expression changes from 12-92%. 
+
+* partial deletion of enahncers that removed only one enhancers a subcluster shows redundant control of gene by multiple enhancers in a super-enhancer.
+
+* highly expressed genes in escs are not necessarily associated wit ha super-enhancer.
+
+* super-enhancer prediction ignore 81% of active regulatory eleemnts predicted by cobinding of pluripotency-associated tfs. 
+  + but these are very critical. 
+  
+* sometimes super-enhancers regulate clusters of paralogous genes (significance?)
+

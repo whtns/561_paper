@@ -1,0 +1,109 @@
+---
+title: "enhancers_chen.Rmd"
+author: "Kevin Stachelek"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r , include=FALSE}
+library(stchlk.notes)
+pwd <- getwd()
+stchlk.notes::loadkey(pwd)
+```
+
+# intro
+enhancers play a role in the control of gen expression during development.
+
+they span a lenght of 50-1500 bp and are cis-regulatory. 
+
+Enhancers stimulate transcription from core promoters by recruiting activators and repressors
+
+There are between 20e4 and 1e6 enhancers in the human genome. 
+
+a large fraction of promoters are located large distances from corresponding promoters
+
+in D. melanogaster 30% occur over 20kb, with intervening genes
+
+How do enhancers communicate with target promoters over large distances?
+
+methods already developed:
+FISH
+chromosomal conformation capture
+
+lack a dynamic characterization to distinguish transient contact from stable structures and establish causality
+
+have developed a live-imaging method at single cell level
+
+# results
+
+placed a reporter gene 142kb from D. melanogaster __eve__ locus
+
+__eve__ has five enhancers that drive striped pattern on the early fly. 
+
+chromatin fiber displays random movements at this distance. creates hurdle for specific interactions. 
+
+also included insulator _homie_ which supports stable enhancer-promoter loop by self-pairing with endogenous _homie_ near _eve_ 
+
+they find reporter gene only in striped pattern areas --specific)
+
+need to visualize:
++ location of endogenous _eve_ enhancers
++ promoter of hte reporter
++ transcriptional activity of reporter
+
+design three-color system. 
+
+use stem-loop labeling cassetes, [MS2](https://en.wikipedia.org/wiki/MS2_tagging) in the _eve_ gene, and [PP7](https://en.wikipedia.org/wiki/CRISPR-Display) were introduced into the reporter gene.
+
+fluorescent coat proteins bind nascent stem-loops on transcription
+
+fluorescence also marks the nuclear position of the _eve_ enhancers 
+
+also used another system to label the position of the reporter gene independent of its activity. 
+
+with this system they did three-color time -lapse confocal microscopy on a two-hour old embryo
+
+red: transcription of reporter
+blue: transcription of eve
+green: position of reporter gene
+
+control experiments:
+## establish baseline
+generate a construct where all three colors are within 2.0kb (establish baseline)
+
+error accounts for 10% of variance in distance measurement. 
+
+## genomic labeling introduce artifact?
+move around genomic labeling construct and compare to endogenous and/or common system. 
+no difference found
+
+
+close connectio nbetween transcriptoin and physical proximity of e-p pair by eye
+
+smaller distance between blue-green found when red is on (transcription) than when red is off (no transcription)
+
+change in e-p (blue-green) distance can give mean squared displacement (msd) in red-on and red-off cases. e and p get closer and stay closer more in red-on than in red-off. 
+
+## how important is e-p proximity over time?
+switches between red-on and off occurred at points of high e-p proximity 
+
+
+
+transcription initiation ceases after enhancers and promoters separate. though polII continues transcription already underway after separation. 
+
+## three topological states
+
+These three florescent foci thus provide the means to measure
+the physical distance between the enhancers and the reporter, as
+well as to monitor the reporter’s transcriptional activity.
+
+1. generated a synthetic construct in which all three fluorescent proteins are co-localized within a genomic distance of 2.0 kb
+2. test whether genomic labeling introdcues perturbations in the system
+3. 
+
+

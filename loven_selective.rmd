@@ -1,0 +1,33 @@
+---
+title: "loven_selective.rmd"
+author: "Kevin Stachelek"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r , include=FALSE}
+library(stchlk.notes)
+pwd <- getwd()
+stchlk.notes::loadkey(pwd)
+
+```
+
+# loven
+
+* Chromatin regulators are targets for cancer therapy
+
+* Why does inhibition of chrematin regulatros have gene-specific effects in tumor cells?
+
+* How can inhibition of BRD4 lead to selective inhibiiont of myc in multiple myeloma (MM)?
+
+* BRD4 and mediator co-occupy 1e3 enhancers associated with active genes. 
+
+* BRD4 and Mediator co-occupy a few very large super-enhancers associated with MYC and other genes.
+
+* Treatment with JQ1 (BED-bromodomain inhibitor) leads to loss of BRD4 at super-enhancers and transcription elongation defects at super-enhancer genes. 
+

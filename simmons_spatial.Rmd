@@ -1,0 +1,40 @@
+---
+title: "simmons_spatial.Rmd"
+author: "Kevin Stachelek"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r , include=FALSE}
+library(stchlk.notes)
+pwd <- getwd()
+stchlk.notes::loadkey(pwd)
+
+```
+
+# Abstract
+
+* cohesin complex associates with CTCF and active gene reg elements to form long-range interaction between binding sites. 
+
+* Also mediates sister chromatid cohesion during hte cell cycle. 
+
+* chromosome conformation capture shos that cohesin's main role in interpahse is mediating interxn with chromoome compartments. 
+
+* How do cohesin-mediated interactions contribute to regulation of gene expression
+
+* ctcf and cohesin is enriched at enhancers esp at enhancer arrays (super-enhancers)
+
+* global and local chrom conf capture shows that enhancer elements associate linear and 3d. 
+
+* spatial enhancer clustering facilitate by cohesin. 
+
+* conditional deleetion of cohesin from cells preserves enhancer position and transcritpion but weakens interactions between. 
+
+* half of dereg genes in vicinity of enhancer elemetns. so cohesin regulates gene expression through spatial clustering. 
+
+* model for cohesin dependent gene regulation where spatial clustering of enhancer elements is unified mech for e-p connection and insulation 

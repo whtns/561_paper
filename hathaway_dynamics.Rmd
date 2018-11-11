@@ -1,0 +1,32 @@
+---
+title: "hathaway_dynamics.Rmd"
+author: "Kevin Stachelek"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r , include=FALSE}
+library(stchlk.notes)
+pwd <- getwd()
+stchlk.notes::loadkey(pwd)
+
+```
+
+# Summary
+* posttrans histone mod change regulation but prop and heritable gene expression state are contr.
+
+* Chomatin in vivo assay (CiA) emplyes chemically induced proximity ot initate and terminate chromatin mod to living cells. 
+
+* recruit HP1a to induce H3K9me3 gene silencing. Describe kinetics and amoutn of chrom mod at Oct4 in cells
+
+* H3K9me3 prop symmet at rates to produce domains of ~10kb. when remove HP1a heterochrom domains heritably transmittedd thorugh mult. cell generations.
+
+* quant. model of kinetics reveals competition between histone mark and turnover. and determines boundaries and stability of H3K9me3 domains. 
+
+* is widely applicable. 
+

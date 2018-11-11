@@ -1,0 +1,30 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1541876338994.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "158|53|171|0|\n160|99|171|0|\n172|67|189|0|\n190|8|199|0|\n",
+    "hash" : "0",
+    "id" : "58FB3153",
+    "lastKnownWriteTime" : 1541899048,
+    "last_content_update" : 1541900205809,
+    "path" : "~/phd/fall_2018/561_PAPER/561_paper_kstachelek.Rmd",
+    "project_path" : "561_paper_kstachelek.Rmd",
+    "properties" : {
+        "cursorPosition" : "135,0",
+        "docOutlineSize" : "261.70310706704936",
+        "docOutlineVisible" : "1",
+        "ignored_words" : "Barakat,ESCs,TFs,SEs,ChIP,Moorthy,Hnisz,DNaseI,et,al,Rada,Iglesias,Xie,Loven,myc,Sox,Nanog,Whyte,Cremer,Sanyal,kB,Seitan,Giorgetti,TADs,Xic,Hoxd,HoxD,Fabre,Ing,cohesin's,Ctcf,globin,additively\n",
+        "last_setup_crc32" : "FDC9907Bbb338d19",
+        "scrollLine" : "128",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

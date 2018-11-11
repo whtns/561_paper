@@ -1,0 +1,45 @@
+---
+title: "sharma_computational.Rmd"
+author: "Kevin Stachelek"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r , include=FALSE}
+library(stchlk.notes)
+pwd <- getwd()
+stchlk.notes::loadkey(pwd)
+
+```
+
+# Background 
+
+* nuclear receptors are a class of tf that act with c-regulators and repressors to maintain: metabolism, development, and reproduction. 
+
+* NR are activated through binding of small ligands, replaced by drug molecules, so promsiing drug targets. 
+
+* trans regulation of genes that encode NRs is important for understanding function and disease relevance of NRs. 
+
+* NR share evo history but have different expression patterns. can be ubiquitous or spatiotemporal complex. 
+
+# Method 
+
+* relationship between long-range reg of NR and function. id nr genes based on counts of non-coding elements. 
+
+* validate results by rna-seq and ChIP-seq from ENCODE. 
+
+* Find NR genes involved in dev roles have long-range mech of trans reg with distinct cis-reg contnt. Feature:
+  + clusters of highly conserved non-coding elemetns in regions over Mb
+  + long and mult cpg islands 
+  + bivalent promoter and 
+  + higher enrichment of enhancer mark. 
+
+
+* Nr genes involved in tissue spec lack these. have simple trans controls and variety of mech for paralog prod. 
+
+* combinatorial patterns of histone maps show reg landscape of gene familys. support long-range reg is inidicative of NR functional role compared to existing classifications. 

@@ -1,0 +1,25 @@
+---
+title: "bell_lecture.Rmd"
+author: "Kevin Stachelek"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r , include=FALSE}
+library(stchlk.notes)
+pwd <- getwd()
+stchlk.notes::loadkey(pwd)
+
+```
+
+* PRC1 has core dimer
+
+* PRC2 has core dimer
+
+* PRC1 and PRC2 act on genes with low H3K4me3 and little RNAPII binding. 
+

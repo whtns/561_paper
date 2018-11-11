@@ -1,0 +1,34 @@
+---
+title: "accessibility_bell.Rmd"
+author: "Kevin Stachelek"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r , include=FALSE}
+library(stchlk.notes)
+pwd <- getwd()
+stchlk.notes::loadkey(pwd)
+
+```
+
+* histone modifications regulate gene expression by modulating DNA accessibility. 
+
+* _Bell_ _et_ _al_ measured gDNA accessibility in _D._ _melanogaster_ by combining M.Sssl footprinting with meDNA immunoprecipitation. 
+
+* me accessibility marks different distribution of active and repressive histone mods and sites of transcrip and replic init. 
+* DNA access is increased at active promoters and chrom regions that are hyperAc at H4K16, esp. in male X chrom. 
+  + so dosage compensation is facilitated by permissive chromatin structure
+  
+* inactive chromos domains with H3K27me3 are least accessible suggesting polycomb-mediated chromatin compaction. 
+
+* higher accessibility at chrom that replicate early and at sites of replication init. 
+
+overall: differential histone mod patterns and the organization of replication have effects of exposure of DNA template. 
+
+

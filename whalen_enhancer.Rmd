@@ -1,0 +1,31 @@
+---
+title: "whalen_enhancer.Rmd"
+author: "Kevin Stachelek"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r , include=FALSE}
+library(stchlk.notes)
+pwd <- getwd()
+stchlk.notes::loadkey(pwd)
+
+```
+
+* Discrimsinating gene targets of distal regulatory elements from other nearby transcribed genes might relate to diseases
+
+* _Targetfinder_ is a computational method to reconstruct regulatory landscapes.
+
+* generates models to predict individual e-p intrxn across cell lines
+
+* uncover interactions structural proteins, tfs, epi mods, transcription, all distinguish interacting e-p pairs. Most is not proximal but instead relates to looping DNA. 
+
+# Correction by Xi and Beer
+
+* many e-ps share features, cross-fold validation by whalen is subject to overfitting. corrected models predict EP interactions with much lower accuracy. 
+

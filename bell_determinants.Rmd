@@ -1,0 +1,87 @@
+---
+title: "bell_determinants.Rmd"
+author: "Kevin Stachelek"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r , include=FALSE}
+library(stchlk.notes)
+pwd <- getwd()
+stchlk.notes::loadkey(pwd)
+
+```
+
+* genome regulation occurs at the level of chromatin. 
+
+* nucleosomes display sequence preferences in vitro
+
+* nucleosome posiitons is influenced by thermal motion, competitive protein binding, and ATP depend. remodel
+  + cause sliding or removal of histone
+  
+* exchange of histone variants, post-trans mod also influence.
+
+* profiles of nucleosome occupancy, DNA accessiblity, and histone modification.
+
+* techniques: ChIP-chip, ChIP-seq, and DNase or MNase-seq
+  + describe enhancers and promoters
+  + cell-type specific patterns of chromatin
+  
+# Methods 
+
+* DNase I digestion: cuts all accessible dna. id accessible cisregulatory elements (promoters and enhancers)
+
+* MNase digestion: cuts linker DNA. allows determination of nucleosome occup
+
+* DNA meth footprint: methyltrans add methyl groups more efficiently in exposed regions 
+
+* FAIRE: form fix chrom then separate protein free DNA. 
+
+# Assaying higher-ordre chromatin structure
+
+* Chromosome conformation capture: crosslink and ligate DNA that is close in 3D space. 
+
+# patterns of genomic accessibility
+
+* there is a lack of methodologies for gap between nuclease insensitivity and highly condensed subnuclear structures of heterochromatin.
+
+## Activation of transcription
+
+* sequence-spec binding of tfs key for gene activation. 
+
+* promoters of repressed genes are embedded in nucleosomes
+
+* How do tfs cope with chromatin?
+
+* tf binding can lead to deisplacement of histones in vitro
+
+* in many cases tfs have a preference for exposed binding sites (by some mech)
+
+* alternative. sites can be exposed during spontaneous histone position. 
+
+* paradigm of _pioneering_ tfs
+
+# polycomb-mediated gene  repression
+
+* polycomb is maintains stable and heritable repression of patterning genes.
+
+* also, represses developmental regulators
+
+* mechanism of histone mod by polycomb is unclear. 
+  + prc1 components promote compaction of nuclesomal arrays in vitro and mediate long-range intxn in vivo. 
+
+* prc1 complexes that lack ub ctivity are able to silence target gnees and mediate chromoatin compaction. 
+
+* experiments needed to determine whether polycomb repression is localized hindrance of pol elong. or chromatin condensation. 
+
+# accessing the genome for dna replication 
+
+# gaining accessiblity during DNA damage repair
+
+
+

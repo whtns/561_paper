@@ -1,0 +1,43 @@
+---
+title: "TAD_franke.Rmd"
+author: "Kevin Stachelek"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r , include=FALSE}
+library(stchlk.notes)
+pwd <- getwd()
+stchlk.notes::loadkey(pwd)
+
+```
+
+* Chromosome conformation capture has id'd topologically associated domains (TADS)
+
+* separated from each other by boundary regions. 
+
+* restrict the contacts that enhancers establish with target genes
+
+* show by capture Hi-C and 4C-seq that genomic duplication in patient cells and gmo mice results in formation of neo-TADs
+
+* Duplications of non-coding DNA in _Sox9_ TAD cause f to m sex reversal. they show increased contact of duplicated regions in the TAD but no change in TAD structure. 
+
+* Contrast: overlapping duplications that extend into a neighboring TAD (inter-TAD) resulted in the formation of a new chromatin domain (neo-TAD) isolated from the rest of the genome. 
+
+* So there is an _insulation_ phenomenon that protects from inter-TAD duplications 
+
+* However, incorporation of incorporation of a flanking gene, in the neo-TAD results in ectopic contacts of the flanking gnee with the duplicated part of the regulatory region, misexpression, and path. pheno. 
+
+* conclusion: TADs are genomic regulatory units with internal stability that are altered by genomic variations. 
+
+* has bearing on copy number interpretation. also relevant for evolution, since copy number alterations are important for evolution. 
+
+
+
+
+

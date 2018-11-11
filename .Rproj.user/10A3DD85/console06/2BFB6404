@@ -1,0 +1,403 @@
+]0;/home/ks/phd/fall_2018/561_PAPER]0;ks@ks-p50: ~/phd/fall_2018/561_PAPER[01;32mks@ks-p50[00m:[01;34m~/phd/fall_2018/561_PAPER[00m$ [K]0;ks@ks-p50: ~/phd/fall_2018/561_PAPER[01;32mks@ks-p50[00m:[01;34m~/phd/fall_2018/561_PAPER[00m$ sudo su
+[sudo] password for ks: 
+]0;root@ks-p50: /home/ks/phd/fall_2018/561_PAPERroot@ks-p50:/home/ks/phd/fall_2018/561_PAPER# R
+
+R version 3.5.1 (2018-07-02) -- "Feather Spray"
+Copyright (C) 2018 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> t[Khtoke[K[K[K[Kotkeys
+Error: object 'hotkeys' not found
+> hotkeys <- remedy::remedy_opts$get("hotkeys")
+> hto[K[Kotkeys
+          backtick               bold              chunk         chunksplit 
+      "Ctrl+Cmd+`"       "Ctrl+Cmd+B"   "Ctrl+Alt+Cmd+C" "Ctrl+Shift+Alt+C" 
+          footnote                 h1                 h2                 h3 
+"Ctrl+Cmd+Shift+6"       "Ctrl+Cmd+1"       "Ctrl+Cmd+2"       "Ctrl+Cmd+3" 
+                h4                 h5                 h6        htmlcomment 
+      "Ctrl+Cmd+4"       "Ctrl+Cmd+5"       "Ctrl+Cmd+6"       "Ctrl+Alt+C" 
+             image            italics              latex               list 
+      "Ctrl+Cmd+P"       "Ctrl+Cmd+I"       "Ctrl+Cmd+L" "Ctrl+Shift+Cmd+=" 
+             right             strike              table                url 
+   "Alt+Cmd+Right"       "Ctrl+Cmd+S"       "Ctrl+Cmd+T"       "Ctrl+Cmd+U" 
+          xaringan            youtube 
+      "Ctrl+Cmd+X"       "Ctrl+Cmd+Y" 
+> gsub("Cmd", "Alt", hotl[Kkeys)[C[C[1@h[1@o[1@t[1@k[1@e[1@y[1@s[1@ [1@<[1@-[1@ 
+> htoke[K[K[K[Kotkeys["chunk"]
+           chunk 
+"Ctrl+Alt+Alt+C" 
+> hotkeys["chunk"] <- "Ctrl+Alt_+[K[K+Shift+D"
+> remedy_opts$set(hotkeys=<NEW_SETTINGS>)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)h)o)t)k)e)y)s)
+Error: object 'remedy_opts' not found
+> remedy_opts$set(hotkeys=hotkeys)[C[C[Cremedy_opts$set(hotkeys=hotkeys)[C[C[Ceremedy_opts$set(hotkeys=hotkeys)[C[C[C[Cmremedy_opts$set(hotkeys=hotkeys)[C[C[C[C[Ceremedy_opts$set(hotkeys=hotkeys)[C[C[C[C[C[Cdremedy_opts$set(hotkeys=hotkeys)[C[C[C[C[C[C[Cyremedy_opts$set(hotkeys=hotkeys)[C[C[C[C[C[C[C[C:remedy_opts$set(hotkeys=hotkeys)[C[C[C[C[C[C[C[C[C:remedy_opts$set(hotkeys=hotkeys)[C[C[C[C[C[C[C[C[C[C
+> rsam::set_shortcut(sprintf('remedy::%sr',names(hottkeys)), hotkeys)
+Do you agree to let {rsam} manipulate the addins
+jsons used to manage RStudio addin keyboard shortcuts?
+1: Not yet
+2: I forget
+3: For sure
+
+Selection: 3
+Do you agree to let {rsam} duplicate the dcf files of the installed addins in your .libPaths
+and manipulate them to manage RStudio Addins dropdown list?
+1: Nope
+2: Yes
+3: No way
+
+Selection: 2
+
+* Addin shortcuts unchanged
+> 
+Save workspace image? [y/n/c]: ]0;root@ks-p50: /home/ks/phd/fall_2018/561_PAPERroot@ks-p50:/home/ks/phd/fall_2018/561_PAPER# exit
+]0;/home/ks/phd/fall_2018/561_PAPER]0;ks@ks-p50: ~/phd/fall_2018/561_PAPER[01;32mks@ks-p50[00m:[01;34m~/phd/fall_2018/561_PAPER[00m$ sudo su
+[sudo] password for ks: 
+]0;root@ks-p50: /home/ks/phd/fall_2018/561_PAPERroot@ks-p50:/home/ks/phd/fall_2018/561_PAPER# R
+
+R version 3.5.1 (2018-07-02) -- "Feather Spray"
+Copyright (C) 2018 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> hotkeys <- remedy::remedy_opts$get("hotkeys")
+> hto[K[K[Kgusb[K[K[Ksub("A[KCmd"m "[K[K[K, "Alt", hto[K[Kotkeys"[K)
+          backtick               bold              chunk         chunksplit 
+      "Ctrl+Alt+`"       "Ctrl+Alt+B"   "Ctrl+Alt+Alt+C" "Ctrl+Shift+Alt+C" 
+          footnote                 h1                 h2                 h3 
+"Ctrl+Alt+Shift+6"       "Ctrl+Alt+1"       "Ctrl+Alt+2"       "Ctrl+Alt+3" 
+                h4                 h5                 h6        htmlcomment 
+      "Ctrl+Alt+4"       "Ctrl+Alt+5"       "Ctrl+Alt+6"       "Ctrl+Alt+C" 
+             image            italics              latex               list 
+      "Ctrl+Alt+P"       "Ctrl+Alt+I"       "Ctrl+Alt+L" "Ctrl+Shift+Alt+=" 
+             right             strike              table                url 
+   "Alt+Alt+Right"       "Ctrl+Alt+S"       "Ctrl+Alt+T"       "Ctrl+Alt+U" 
+          xaringan            youtube 
+      "Ctrl+Alt+X"       "Ctrl+Alt+Y" 
+> gsub("Cmd", "Alt", hotkeys)[C[C[1@h[1@o[1@t[1@k[1@e[1@y[1@s[1@2[1@ [1@<[1@-[1@ 
+> hotkeys["chunk"] <- "Ctrl_Sh[K[K[K+Shift+Alt+D"[C[C[C[C[C[C[C[C[C[1@2
+> remedy::remedy_opts$set(hotkeys=<NEW_SETTINGS>)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)h)o)t)k)e)y)s)2)
+> hotkeys <- remedy::remedy_opts$get("hotkeys")
+> htoe[K[K[Kotkeys
+          backtick               bold              chunk         chunksplit 
+      "Ctrl+Alt+`"       "Ctrl+Alt+B" "Ctrl+Shift+Alt+D" "Ctrl+Shift+Alt+C" 
+          footnote                 h1                 h2                 h3 
+"Ctrl+Alt+Shift+6"       "Ctrl+Alt+1"       "Ctrl+Alt+2"       "Ctrl+Alt+3" 
+                h4                 h5                 h6        htmlcomment 
+      "Ctrl+Alt+4"       "Ctrl+Alt+5"       "Ctrl+Alt+6"       "Ctrl+Alt+C" 
+             image            italics              latex               list 
+      "Ctrl+Alt+P"       "Ctrl+Alt+I"       "Ctrl+Alt+L" "Ctrl+Shift+Alt+=" 
+             right             strike              table                url 
+   "Alt+Alt+Right"       "Ctrl+Alt+S"       "Ctrl+Alt+T"       "Ctrl+Alt+U" 
+          xaringan            youtube 
+      "Ctrl+Alt+X"       "Ctrl+Alt+Y" 
+> 
+Save workspace image? [y/n/c]: ]0;root@ks-p50: /home/ks/phd/fall_2018/561_PAPERroot@ks-p50:/home/ks/phd/fall_2018/561_PAPER# R
+
+R version 3.5.1 (2018-07-02) -- "Feather Spray"
+Copyright (C) 2018 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> hotkeys <- remedy::remedy_opts$get("hotkeys")
+> heo[K[Kotkeys
+          backtick               bold              chunk         chunksplit 
+      "Ctrl+Cmd+`"       "Ctrl+Cmd+B"   "Ctrl+Alt+Cmd+C" "Ctrl+Shift+Alt+C" 
+          footnote                 h1                 h2                 h3 
+"Ctrl+Cmd+Shift+6"       "Ctrl+Cmd+1"       "Ctrl+Cmd+2"       "Ctrl+Cmd+3" 
+                h4                 h5                 h6        htmlcomment 
+      "Ctrl+Cmd+4"       "Ctrl+Cmd+5"       "Ctrl+Cmd+6"       "Ctrl+Alt+C" 
+             image            italics              latex               list 
+      "Ctrl+Cmd+P"       "Ctrl+Cmd+I"       "Ctrl+Cmd+L" "Ctrl+Shift+Cmd+=" 
+             right             strike              table                url 
+   "Alt+Cmd+Right"       "Ctrl+Cmd+S"       "Ctrl+Cmd+T"       "Ctrl+Cmd+U" 
+          xaringan            youtube 
+      "Ctrl+Cmd+X"       "Ctrl+Cmd+Y" 
+> htokey[K[K[K[K[Kotkeys2
+Error: object 'hotkeys2' not found
+> hotkeys <- remedy::remedy_opts$get("hotkeys")
+> gsub[K[K[K[Khotkeys g[K<- gsub("C[KCl[Ktrl", "Alt", hotkeys)
+> htk[K[Kotkeys
+         backtick              bold             chunk        chunksplit 
+      "Alt+Cmd+`"       "Alt+Cmd+B"   "Alt+Alt+Cmd+C" "Alt+Shift+Alt+C" 
+         footnote                h1                h2                h3 
+"Alt+Cmd+Shift+6"       "Alt+Cmd+1"       "Alt+Cmd+2"       "Alt+Cmd+3" 
+               h4                h5                h6       htmlcomment 
+      "Alt+Cmd+4"       "Alt+Cmd+5"       "Alt+Cmd+6"       "Alt+Alt+C" 
+            image           italics             latex              list 
+      "Alt+Cmd+P"       "Alt+Cmd+I"       "Alt+Cmd+L" "Alt+Shift+Cmd+=" 
+            right            strike             table               url 
+  "Alt+Cmd+Right"       "Alt+Cmd+S"       "Alt+Cmd+T"       "Alt+Cmd+U" 
+         xaringan           youtube 
+      "Alt+Cmd+X"       "Alt+Cmd+Y" 
+> hotkeys <- gsub("Ctrl", "Alt", hotkeys)[1P[1P[1P[1P[1@A[1@l[1@t[C[C[C[C[1@C[1@t[1@r[1@l[1P[1P[1P
+> htoke[K[K[K[Kotkeys
+           backtick                bold               chunk          chunksplit 
+       "Ctrl+Cmd+`"        "Ctrl+Cmd+B"   "Ctrl+Ctrl+Cmd+C" "Ctrl+Shift+Ctrl+C" 
+           footnote                  h1                  h2                  h3 
+ "Ctrl+Cmd+Shift+6"        "Ctrl+Cmd+1"        "Ctrl+Cmd+2"        "Ctrl+Cmd+3" 
+                 h4                  h5                  h6         htmlcomment 
+       "Ctrl+Cmd+4"        "Ctrl+Cmd+5"        "Ctrl+Cmd+6"       "Ctrl+Ctrl+C" 
+              image             italics               latex                list 
+       "Ctrl+Cmd+P"        "Ctrl+Cmd+I"        "Ctrl+Cmd+L"  "Ctrl+Shift+Cmd+=" 
+              right              strike               table                 url 
+   "Ctrl+Cmd+Right"        "Ctrl+Cmd+S"        "Ctrl+Cmd+T"        "Ctrl+Cmd+U" 
+           xaringan             youtube 
+       "Ctrl+Cmd+X"        "Ctrl+Cmd+Y" 
+> htokeys[K[K[K[K[K[Kotkeys["chunk"] <- "Ctrl+C[KShjo[K[Kift+Alt+D"
+> rsam::set_shortcut(sprintf('remedy::%sr',names(hottkeys)), hotkeys)
+Do you agree to let {rsam} manipulate the addins
+jsons used to manage RStudio addin keyboard shortcuts?
+1: Definitely
+2: I forget
+3: Uhhhh... Maybe?
+
+Selection: 1
+Do you agree to let {rsam} duplicate the dcf files of the installed addins in your .libPaths
+and manipulate them to manage RStudio Addins dropdown list?
+1: I forget
+2: Nope
+3: Definitely
+
+Selection: 3
+
+* Addin shortcuts unchanged
+> ?rsam::set_shrot[K[K[Kortcut
+[23;0;0t> hotkeys
+           backtick                bold               chunk          chunksplit 
+       "Ctrl+Cmd+`"        "Ctrl+Cmd+B"  "Ctrl+Shift+Alt+D" "Ctrl+Shift+Ctrl+C" 
+           footnote                  h1                  h2                  h3 
+ "Ctrl+Cmd+Shift+6"        "Ctrl+Cmd+1"        "Ctrl+Cmd+2"        "Ctrl+Cmd+3" 
+                 h4                  h5                  h6         htmlcomment 
+       "Ctrl+Cmd+4"        "Ctrl+Cmd+5"        "Ctrl+Cmd+6"       "Ctrl+Ctrl+C" 
+              image             italics               latex                list 
+       "Ctrl+Cmd+P"        "Ctrl+Cmd+I"        "Ctrl+Cmd+L"  "Ctrl+Shift+Cmd+=" 
+              right              strike               table                 url 
+   "Ctrl+Cmd+Right"        "Ctrl+Cmd+S"        "Ctrl+Cmd+T"        "Ctrl+Cmd+U" 
+           xaringan             youtube 
+       "Ctrl+Cmd+X"        "Ctrl+Cmd+Y" 
+> hotkeys <- gsub("Alt", "Ctrl", hotkeys)
+> hotkeys
+           backtick                bold               chunk          chunksplit 
+       "Ctrl+Cmd+`"        "Ctrl+Cmd+B" "Ctrl+Shift+Ctrl+D" "Ctrl+Shift+Ctrl+C" 
+           footnote                  h1                  h2                  h3 
+ "Ctrl+Cmd+Shift+6"        "Ctrl+Cmd+1"        "Ctrl+Cmd+2"        "Ctrl+Cmd+3" 
+                 h4                  h5                  h6         htmlcomment 
+       "Ctrl+Cmd+4"        "Ctrl+Cmd+5"        "Ctrl+Cmd+6"       "Ctrl+Ctrl+C" 
+              image             italics               latex                list 
+       "Ctrl+Cmd+P"        "Ctrl+Cmd+I"        "Ctrl+Cmd+L"  "Ctrl+Shift+Cmd+=" 
+              right              strike               table                 url 
+   "Ctrl+Cmd+Right"        "Ctrl+Cmd+S"        "Ctrl+Cmd+T"        "Ctrl+Cmd+U" 
+           xaringan             youtube 
+       "Ctrl+Cmd+X"        "Ctrl+Cmd+Y" 
+> hotkeys[C <- gsub("Alt", "Ctrl", hotkeys)[1P[1P[1P[1@C[1@t[1@r[1@l[C[C[C[C[1@A[1@l[1@t[1P[1P[1P[1P
+> hto[K[Kotkeys
+         backtick              bold             chunk        chunksplit 
+      "Alt+Cmd+`"       "Alt+Cmd+B" "Alt+Shift+Alt+D" "Alt+Shift+Alt+C" 
+         footnote                h1                h2                h3 
+"Alt+Cmd+Shift+6"       "Alt+Cmd+1"       "Alt+Cmd+2"       "Alt+Cmd+3" 
+               h4                h5                h6       htmlcomment 
+      "Alt+Cmd+4"       "Alt+Cmd+5"       "Alt+Cmd+6"       "Alt+Alt+C" 
+            image           italics             latex              list 
+      "Alt+Cmd+P"       "Alt+Cmd+I"       "Alt+Cmd+L" "Alt+Shift+Cmd+=" 
+            right            strike             table               url 
+  "Alt+Cmd+Right"       "Alt+Cmd+S"       "Alt+Cmd+T"       "Alt+Cmd+U" 
+         xaringan           youtube 
+      "Alt+Cmd+X"       "Alt+Cmd+Y" 
+> hotkeys <- gsub("Ctrl", "Alt", hotkeys)[C[C[C[C[C[C[C[C[C[K <- gsub("Alt", "Ctrl", hotkeys)
+> hotkeys <- gsub("Alt", "Ctrl", hotkeys)[C[C[C[C[C[C[C[C[C[K <- gsub("Ctrl", "Alt", hotkeys)[1P[1P[1P[1@m[1@d
+> hotkeys
+           backtick                bold               chunk          chunksplit 
+       "Ctrl+Alt+`"        "Ctrl+Alt+B" "Ctrl+Shift+Ctrl+D" "Ctrl+Shift+Ctrl+C" 
+           footnote                  h1                  h2                  h3 
+ "Ctrl+Alt+Shift+6"        "Ctrl+Alt+1"        "Ctrl+Alt+2"        "Ctrl+Alt+3" 
+                 h4                  h5                  h6         htmlcomment 
+       "Ctrl+Alt+4"        "Ctrl+Alt+5"        "Ctrl+Alt+6"       "Ctrl+Ctrl+C" 
+              image             italics               latex                list 
+       "Ctrl+Alt+P"        "Ctrl+Alt+I"        "Ctrl+Alt+L"  "Ctrl+Shift+Alt+=" 
+              right              strike               table                 url 
+   "Ctrl+Alt+Right"        "Ctrl+Alt+S"        "Ctrl+Alt+T"        "Ctrl+Alt+U" 
+           xaringan             youtube 
+       "Ctrl+Alt+X"        "Ctrl+Alt+Y" 
+> hotkeys <- remedy::remedy_opts$get("hotkeys")
+> hotkeys
+          backtick               bold              chunk         chunksplit 
+      "Ctrl+Cmd+`"       "Ctrl+Cmd+B"   "Ctrl+Alt+Cmd+C" "Ctrl+Shift+Alt+C" 
+          footnote                 h1                 h2                 h3 
+"Ctrl+Cmd+Shift+6"       "Ctrl+Cmd+1"       "Ctrl+Cmd+2"       "Ctrl+Cmd+3" 
+                h4                 h5                 h6        htmlcomment 
+      "Ctrl+Cmd+4"       "Ctrl+Cmd+5"       "Ctrl+Cmd+6"       "Ctrl+Alt+C" 
+             image            italics              latex               list 
+      "Ctrl+Cmd+P"       "Ctrl+Cmd+I"       "Ctrl+Cmd+L" "Ctrl+Shift+Cmd+=" 
+             right             strike              table                url 
+   "Alt+Cmd+Right"       "Ctrl+Cmd+S"       "Ctrl+Cmd+T"       "Ctrl+Cmd+U" 
+          xaringan            youtube 
+      "Ctrl+Cmd+X"       "Ctrl+Cmd+Y" 
+> hotkeys <- remedy::remedy_opts$get("hotkeys")[C[C[C[C[C[C[C[C[C[K <- gsub("Cmd", "Alt", hotkeys)
+> hotkeys
+          backtick               bold              chunk         chunksplit 
+      "Ctrl+Alt+`"       "Ctrl+Alt+B"   "Ctrl+Alt+Alt+C" "Ctrl+Shift+Alt+C" 
+          footnote                 h1                 h2                 h3 
+"Ctrl+Alt+Shift+6"       "Ctrl+Alt+1"       "Ctrl+Alt+2"       "Ctrl+Alt+3" 
+                h4                 h5                 h6        htmlcomment 
+      "Ctrl+Alt+4"       "Ctrl+Alt+5"       "Ctrl+Alt+6"       "Ctrl+Alt+C" 
+             image            italics              latex               list 
+      "Ctrl+Alt+P"       "Ctrl+Alt+I"       "Ctrl+Alt+L" "Ctrl+Shift+Alt+=" 
+             right             strike              table                url 
+   "Alt+Alt+Right"       "Ctrl+Alt+S"       "Ctrl+Alt+T"       "Ctrl+Alt+U" 
+          xaringan            youtube 
+      "Ctrl+Alt+X"       "Ctrl+Alt+Y" 
+> remedy::remedy_opts$set(hotkeys=<NEW_SETTINGS>)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)h)o)t)k)e)y)s)
+> 
+> 
+> hotkeys <- remedy::remedy_opts$get("hotkeys")
+> hotkeys
+          backtick               bold              chunk         chunksplit 
+      "Ctrl+Alt+`"       "Ctrl+Alt+B"   "Ctrl+Alt+Alt+C" "Ctrl+Shift+Alt+C" 
+          footnote                 h1                 h2                 h3 
+"Ctrl+Alt+Shift+6"       "Ctrl+Alt+1"       "Ctrl+Alt+2"       "Ctrl+Alt+3" 
+                h4                 h5                 h6        htmlcomment 
+      "Ctrl+Alt+4"       "Ctrl+Alt+5"       "Ctrl+Alt+6"       "Ctrl+Alt+C" 
+             image            italics              latex               list 
+      "Ctrl+Alt+P"       "Ctrl+Alt+I"       "Ctrl+Alt+L" "Ctrl+Shift+Alt+=" 
+             right             strike              table                url 
+   "Alt+Alt+Right"       "Ctrl+Alt+S"       "Ctrl+Alt+T"       "Ctrl+Alt+U" 
+          xaringan            youtube 
+      "Ctrl+Alt+X"       "Ctrl+Alt+Y" 
+> rsam::set_shortcut(sprintf('remedy::%sr',names(hottkeys)), hotkeys)
+
+* Addin shortcuts unchanged
+> hotkeys
+          backtick               bold              chunk         chunksplit 
+      "Ctrl+Alt+`"       "Ctrl+Alt+B"   "Ctrl+Alt+Alt+C" "Ctrl+Shift+Alt+C" 
+          footnote                 h1                 h2                 h3 
+"Ctrl+Alt+Shift+6"       "Ctrl+Alt+1"       "Ctrl+Alt+2"       "Ctrl+Alt+3" 
+                h4                 h5                 h6        htmlcomment 
+      "Ctrl+Alt+4"       "Ctrl+Alt+5"       "Ctrl+Alt+6"       "Ctrl+Alt+C" 
+             image            italics              latex               list 
+      "Ctrl+Alt+P"       "Ctrl+Alt+I"       "Ctrl+Alt+L" "Ctrl+Shift+Alt+=" 
+             right             strike              table                url 
+   "Alt+Alt+Right"       "Ctrl+Alt+S"       "Ctrl+Alt+T"       "Ctrl+Alt+U" 
+          xaringan            youtube 
+      "Ctrl+Alt+X"       "Ctrl+Alt+Y" 
+> hotkeys <- remedy::remedy_opts$get("hotkeys")
+> hotkeys
+          backtick               bold              chunk         chunksplit 
+      "Ctrl+Alt+`"       "Ctrl+Alt+B"   "Ctrl+Alt+Alt+C" "Ctrl+Shift+Alt+C" 
+          footnote                 h1                 h2                 h3 
+"Ctrl+Alt+Shift+6"       "Ctrl+Alt+1"       "Ctrl+Alt+2"       "Ctrl+Alt+3" 
+                h4                 h5                 h6        htmlcomment 
+      "Ctrl+Alt+4"       "Ctrl+Alt+5"       "Ctrl+Alt+6"       "Ctrl+Alt+C" 
+             image            italics              latex               list 
+      "Ctrl+Alt+P"       "Ctrl+Alt+I"       "Ctrl+Alt+L" "Ctrl+Shift+Alt+=" 
+             right             strike              table                url 
+   "Alt+Alt+Right"       "Ctrl+Alt+S"       "Ctrl+Alt+T"       "Ctrl+Alt+U" 
+          xaringan            youtube 
+      "Ctrl+Alt+X"       "Ctrl+Alt+Y" 
+> 
+Save workspace image? [y/n/c]: ]0;root@ks-p50: /home/ks/phd/fall_2018/561_PAPERroot@ks-p50:/home/ks/phd/fall_2018/561_PAPER# exit
+sudo su
+[sudo] password for ks: 
+]0;root@ks-p50: /home/ks/phd/fall_2018/561_PAPERroot@ks-p50:/home/ks/phd/fall_2018/561_PAPER# R
+
+R version 3.5.1 (2018-07-02) -- "Feather Spray"
+Copyright (C) 2018 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> hotkeys
+Error: object 'hotkeys' not found
+> hotkeys <- remedy::remedy_opts$get("hotkeys")
+> hotkeys
+          backtick               bold              chunk         chunksplit 
+      "Ctrl+Cmd+`"       "Ctrl+Cmd+B"   "Ctrl+Alt+Cmd+C" "Ctrl+Shift+Alt+C" 
+          footnote                 h1                 h2                 h3 
+"Ctrl+Cmd+Shift+6"       "Ctrl+Cmd+1"       "Ctrl+Cmd+2"       "Ctrl+Cmd+3" 
+                h4                 h5                 h6        htmlcomment 
+      "Ctrl+Cmd+4"       "Ctrl+Cmd+5"       "Ctrl+Cmd+6"       "Ctrl+Alt+C" 
+             image            italics              latex               list 
+      "Ctrl+Cmd+P"       "Ctrl+Cmd+I"       "Ctrl+Cmd+L" "Ctrl+Shift+Cmd+=" 
+             right             strike              table                url 
+   "Alt+Cmd+Right"       "Ctrl+Cmd+S"       "Ctrl+Cmd+T"       "Ctrl+Cmd+U" 
+          xaringan            youtube 
+      "Ctrl+Cmd+X"       "Ctrl+Cmd+Y" 
+> remedy_opts$set(hotkeys=<NEW_SETTINGS>)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)h)o)t)k)e)y)s)
+Error: object 'remedy_opts' not found
+> remedy_opts$set(hotkeys=hotkeys)[C[C[Cremedy_opts$set(hotkeys=hotkeys)[C[C[Ceremedy_opts$set(hotkeys=hotkeys)[C[C[C[Cmremedy_opts$set(hotkeys=hotkeys)[C[C[C[C[Ceremedy_opts$set(hotkeys=hotkeys)[C[C[C[C[C[Cdremedy_opts$set(hotkeys=hotkeys)[C[C[C[C[C[C[Cyremedy_opts$set(hotkeys=hotkeys)[C[C[C[C[C[C[C[C:remedy_opts$set(hotkeys=hotkeys)[C[C[C[C[C[C[C[C[C:remedy_opts$set(hotkeys=hotkeys)[C[C[C[C[C[C[C[C[C[C
+> ?rsam::get_shortc
+?rsam::get_shortc
+> ?rsam::get_shortc
+?rsam::get_shortc
+> ?rsam::get_shortc[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Klibrary(rsam)
+Do you agree to let {rsam} manipulate the addins
+jsons used to manage RStudio addin keyboard shortcuts?
+1: I forget
+2: Absolutely
+3: No way
+
+Selection: 
+> rsam::get_shorDo you agree to let {rsam} manipulate the addins
+jsons used to manage RStudio addin keyboard shortcuts?
+1: No way
+2: Definitely
+3: Uhhhh... Maybe?
+
+Selection: 
+> library(rsam)[C[C[Krsam::get[C[C?rsam::get[C[C[C[C[C[C[C[C[C[C[C[C[C_shortucts[K[K[K[Kcuts
+No documentation for ‘get_shortcuts’ in specified packages and libraries:
+you could try ‘??get_shortcuts’
+> ?rsam::get_shortcuts[K
+No documentation for ‘get_shortcut’ in specified packages and libraries:
+you could try ‘??get_shortcut’
+> 

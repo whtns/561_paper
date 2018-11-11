@@ -1,0 +1,27 @@
+---
+title: "larkin_promoter.Rmd"
+author: "Kevin Stachelek"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r , include=FALSE}
+library(stchlk.notes)
+pwd <- getwd()
+stchlk.notes::loadkey(pwd)
+
+```
+
+# Summary
+
+* Sequence of promoter and position of a gene in 3d play role in regulation. 
+
+* promoters bind the same tf and respond t osame pathways co-transcribed in same facotries. 
+
+* spatial co-association might drive co-regulation of genes under the control of similar cis-elements. 
+
